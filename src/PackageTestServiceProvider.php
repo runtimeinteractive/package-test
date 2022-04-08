@@ -2,9 +2,9 @@
 
 namespace Runtimeinteractive\PackageTest;
 
+use Runtimeinteractive\PackageTest\Commands\PackageTestCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Runtimeinteractive\PackageTest\Commands\PackageTestCommand;
 
 class PackageTestServiceProvider extends PackageServiceProvider
 {
